@@ -3,6 +3,7 @@ class CreateLists < ActiveRecord::Migration[5.2]
     create_table :lists do |t|
       t.string     :title
       t.string     :description
+      t.string     :categories
       t.timestamps
     end
   end

@@ -1,11 +1,16 @@
+#navbar {
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+
 .heading {
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #BAD;
-  color: #FFF;
+  background-color: rgba(185, 250, 7, 0.911);
+  color: rgb(8, 8, 8);
 
   H1 {
     font-size: 5em;
